@@ -1,0 +1,41 @@
+#fetures{
+
+    width: 33%;
+    padding-inline: 3%;
+      padding-top: 3%;
+}
+#fMain{
+   background-image: url("./feture.jpg");
+    display: flex;
+    flex-direction: 33%;
+    flex-wrap: wrap;
+     padding-inline: 3%;
+}
+#fetures:hover{
+
+    -webkit-box-shadow: 4px 7px 28px 5px rgba(135,188,201,1);
+    -moz-box-shadow: 4px 7px 28px 5px rgba(135,188,201,1);
+    box-shadow: 4px 7px 28px 5px rgba(135,188,201,1);
+}
+
+
+
+/* 2 */
+.btn-2 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    
+  }
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
+  
